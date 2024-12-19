@@ -24,7 +24,7 @@ On the monitored system, create the PRTG script directory and copy ```tailscale.
 ```
 # mkdir -p /var/prtg/scriptsxml
 # cd /var/prtg/scriptsxml
-# wget ...
+# wget https://raw.githubusercontent.com/Fluent-networks/tailscale-prtg/refs/heads/main/tailscale.py
 # chmod 755 tailscale.py
 ```
 
